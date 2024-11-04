@@ -1,2 +1,2 @@
-# apamea-global
+# Apamea Global
  
