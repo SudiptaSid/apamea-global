@@ -1,0 +1,33 @@
+// Google Font
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap');
+
+// Bootstrap
+@import "../plugins/bootstrap/scss/bootstrap.scss";
+
+// Font Awesome
+@import "../plugins/font-awesome/scss/font-awesome.scss";
+
+// Icons
+@import "../fonts/font-icons.css";
+
+// Owl Carousel
+@import "../plugins/owl-carousel/scss/owl.carousel.scss";
+@import "../plugins/owl-carousel/scss/owl.theme.default.scss";
+
+// Revolution Slider
+@import "../plugins/revolution_slider/css/settings.css";
+@import "../plugins/revolution_slider/css/layers.css";
+@import "../plugins/revolution_slider/css/navigation.css";
+@import "../plugins/revolution_slider/fonts/pe-icon-7-stroke/css/pe-icon-7-stroke.css";
+@import "../plugins/revolution_slider/css/edits.css";
+
+// Components Folder
+@import "components/mixins";
+@import "components/variables";
+@import "components/reset";
+@import "components/buttons";
+@import "components/form";
+@import "components/header";
+@import "components/footer";
+@import "components/components";
+@import "components/section";

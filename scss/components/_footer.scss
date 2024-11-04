@@ -1,0 +1,89 @@
+// Footer
+footer {
+    border-top: 1px solid #EEE;
+    background-color:darken($white_clr, 2%);
+    .footer_widgets {
+        position: relative;
+        padding: 80px 0;
+        .widget {
+            position: relative;
+            color: #777;
+            h4 {
+                font-size: 16px;
+                font-weight: 500;
+                color:#444;
+            }
+            ul {
+                list-style: none;
+                margin: 0;
+                padding-left: 0;
+                li {
+                    position: relative;
+                    padding: 4px 0;
+                    a {
+                        display: inline-block;
+                        padding-right:5px;
+                    }
+                }
+            }
+            a {
+                color: #777;
+                &:hover {
+                    color:$black_clr;
+                }
+            }
+            .social_icon {
+                width: 32px;
+                height: 32px;
+                line-height: 30px;
+                margin: 0 5px 5px 0;
+                color: #777;
+                border: 1px solid #777;
+                border-radius: 3px;
+                cursor: pointer;
+                display: inline-block;
+                text-align: center;
+                &:hover {
+                    color:  $black_clr;
+                    border-color: $black_clr;
+                }
+            }
+        }
+    }
+    .copyrights {
+        padding: 40px 0;
+        background-color:darken($white_clr, 6%);
+        line-height: 1.8;
+        color: rgba($black_clr,.5);
+        p {
+            margin-bottom:0;
+        }
+        a {
+            font-size: 14px;
+            color: #777;
+            margin: 0 10px;
+            border-bottom: 0!important;
+            display: inline-block;
+            &:hover {
+                color:  $black_clr;
+            }
+        }
+    }
+}
+
+.terms_footer {
+    margin-top:50px;
+    border-top: 1px solid #EEE;
+    background-color:darken($white_clr, 2%);
+    text-align: center;
+    padding:15px 0;
+    p {
+        margin-bottom:0;
+    }
+    a {
+        color:rgba($black_clr, 0.8);
+        &:hover {
+            color:$primary_clr;
+        }
+    }
+}

@@ -1,0 +1,105 @@
+// Header
+#cs_menu {
+    border-bottom:1px solid rgba($black_clr, 0.2);
+    .navbar {
+        padding:0;
+    }
+    .navbar-brand {
+        text-transform: uppercase;
+        color:$primary_clr;
+        font-weight:600;
+        @media (max-width: $break_991) {
+            padding:15px;
+        }
+    }
+    .navbar-toggler {
+        border:1px dotted $black_clr;
+        width:40px;
+        height:36px;
+        padding:5px;
+        span {
+            height:2px;
+            width:100%;
+            background-color:$black_clr;
+            display: block;
+            margin: 5px 0;
+            line-height: 1;
+        }
+    }
+    .nav-link {
+        color:$black_clr;
+        text-transform: uppercase;
+        letter-spacing:1px;
+        font-weight:300;
+        padding:20px 15px;
+        &:hover {
+            color:$primary_clr;
+        }
+        @media (max-width: $break_991) {
+            padding:8px 15px;
+        }
+    }
+    .active {
+        .nav-link {
+            color:$primary_clr;
+        }
+    }
+    .dropdown-menu {
+        border-radius:0;
+        padding:0;
+        margin:0;
+        font-size: 1em;
+        @media (max-width: $break_991) {
+            border-left:0;
+            border-right:0;
+        }
+        .dropdown-item {
+            font-weight:300;
+            padding:8px 15px;
+            color:$black_clr;
+            background-color:$white_clr;
+            &:hover {
+                background-color:$primary_clr;
+                color:$white_clr;
+            }
+        }
+    }
+    .navbar-collapse {
+        @media (max-width: $break_991) {
+            position: absolute;
+            background-color:$white_clr;
+            width:100%;
+            left:0;
+            top:60px;
+            z-index:999;
+        }
+    }
+}
+
+// pp header
+.pp_header {
+    padding:10px 0;
+    border-bottom:1px solid rgba($black_clr, 0.2);
+    .grid_left {
+        .logo {
+            a {
+                text-transform: uppercase;
+                color:$primary_clr;
+                font-weight:600;
+                font-size:1.5em;
+                @media (max-width: $break_991) {
+                    padding:15px;
+                }
+            }
+        }
+    }
+    .grid_right {
+        text-align: right;
+        a {
+            color:rgba($black_clr, 0.8);
+            &:hover {
+                color:$black_clr;
+            }
+        }
+    }
+}
